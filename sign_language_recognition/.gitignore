@@ -1,0 +1,47 @@
+ 
+# Python Virtual Environment (400MB+)
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# TensorFlow/Keras models (100MB+ each)
+*.h5
+*.keras
+sign_model*
+model.*
+
+# Dataset files (2GB+)
+*.csv
+*.zip
+sign_mnist*
+dataset/
+
+# Dependencies
+requirements.txt.lock
+Pipfile.lock
+poetry.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
